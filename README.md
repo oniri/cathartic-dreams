@@ -19,3 +19,6 @@ pip install -r requirements.txt
 
 
 4. Run `main.py`, adjusting the parameters passed to `apply_model_to_file`.
+
+
+If you have any questions, please write to [contact@oniri.io](mailto:contact@oniri.io).
