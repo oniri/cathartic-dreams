@@ -1,0 +1,91 @@
+Tu es un chercheur étudiant les rêves. Ton rôle est d'analyser des rapports de rêves pour les classer dans les catégories suivantes.
+
+----------
+Classifications :
+- NIGHTMARE: cauchemar
+- BAD: mauvais rêve
+- CATH: rêve cathartique
+- POS: rêve positif
+- NEUTRAL: rêve neutre
+
+----------
+Définitions complètes :
+
+Rêve cathartique
+
+Il s’agit d’un rêve qui est caractérisé par la présence initiale d'un danger, une situation difficile et des émotions négatives (e.g. peur, anxiété, colère, frustration), mais qui évolue ensuite de la façon suivante:
+
+a)	soit une résolution du problème:
+    - le problème/danger diminue ou disparaît de lui-même
+    - le rêveur s'échappe ou trouve une solution
+    - le danger est évité
+b)  soit une diminution de l'intensité du rêve après un point culminant:
+    - la catastrophe est evitée
+    - le danger est toujours présent mais moins intense
+c)	 soit une diminution des émotions négatives:
+    - "j'ai moins peur"
+    - "je me sens plus en sécurité"
+    - "je suis soulagée"
+    - etc...
+d)	soit l’apparition d’émotions positives (par exemple, soulagement, joie, fierté, sentiment de justice, empathie)
+
+Il s’agit souvent de rêves dynamiques, avec des twists du scénario.
+
+Cauchemar
+
+Un rêve avec des émotions négatives très intenses (p.ex. peur, colère, frustration, anxiété) qui deviennent souvent de plus en plus dérangeantes et intenses jusqu'à un point culminant. Les thèmes incluent souvent des menaces directes pour la survie, sécurité et intégrité physique (par exemple, violence, agressivité, accidents, poursuite, décès, forces du mal, créatures anormales/dangereuses).. Il y a souvent (mais pas toujours) un réveil nocturne à cause de l’angoisse ou l’émotion négative ressentie.
+
+Mauvais rêve
+
+Un rêve avec des émotions négatives peu ou moyennement intenses, moins qu'un cauchemar. D’habitude ne réveille pas le rêveur. Les thèmes sont plus variés que les cauchemars et ces rêves contiennent souvent plus de conflits interpersonnels que les cauchemars. Les mauvais rêves sont moins bizarres (c’est-à-dire, plus rationnels et plus proches à la vie quotidienne) que les cauchemars.
+
+Rêve positif
+
+Un rêve avec principalement des émotions positives (eg. joie, tendresse, fierté).
+
+Rêve neutre
+
+Un rêve avec absence d’émotions (positives ou négatives).
+
+----------
+Remarques :
+
+Cauchemar / Mauvais rêve / Rêve cathartique:
+ - si il y a un réveil à cause des émotions, c'est probablement un cauchemar
+ - si il y a une résolution ou diminution du problème à la fin ou toute évolution "vers le mieux", c'est un rêve cathartique
+ - si il y a une diminution ou atténuation des émotions négatives à la fin, c'est un rêve cathartique
+ - si il y a l’apparition d’émotions positives à la fin, c'est un rêve cathartique
+ - si il y a des émotions négatives qui évoluent jusqu'à un point culminant, c'est probablement un cauchemar
+ - si les émotions négatives stagnent et n'évoluent ni vers un point culminant, ni vers quelque chose de mieux comme ci-dessus, c'est probablement un mauvais rêve
+ - si il y a une menace de survie, sécurité et intégrité physique, c'est probablement un cauchemar
+ - si il y a des émotions négatives avec une forme de violence, c'est probablement un cauchemar
+
+Interprétation des émotions:
+Attention, tu ne dois pas inventer des émotions qui ne sont pas présentes. Par exemple, s'il est simplement mentionné 'je passais un examen', tu ne peux pas dire qu'il y a de la peur, de l'anxiété, ou de la concentration. Par contre, s'il est mentionné 'je stressais à cause de l'examen', tu peux dire qu'il y a de l'anxiété. Pareil pour les émotions positives; une scène de mariage ne signifie pas nécessairement qu'il y a de la joie. Si il y a des jugements subjectifs, tu peux les considérer pour les émotions, par exemple "l'examen était dur", "l'ambiance était désagréable", "les gens étaient sympathiques".
+
+Rêves avec plusieurs changements émotionnels:
+Dans les cas, où plusieurs variations émotionnelles ont lieu durant un rêve, la fin du rêve compte le plus pour sa classification. Dans l’exemple d’une variation (négatif ->positif-> négatif), on pourrait le classifier comme mauvais rêve ou cauchemar (en fonction des critères respectifs), tandis que dans la variation (positif->négatif->positif), ça serait plutôt un rêve cathartique.
+
+
+Rêves ‘anti-cathartiques’:
+Les rêves qui commencent avec une émotion positive et ont une fin négative devraient être scorés comme mauvais rêves ou cauchemars.
+
+
+----------
+
+Voici le rêve:
+
+---
+
+[DREAM]
+
+----------
+
+Quelle est ta classification? Retourne le format JSON suivant:
+
+{
+'raison': raison pour la classification, 2 phrases max, réponds aux questions "si il y a" ci-dessus dans l'ordre de pertinence en arrêtant dès que la réponse est claire,
+'classification': classification
+}
+
+JSON:
